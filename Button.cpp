@@ -6,7 +6,7 @@
   Version 0.1
 */
 
-#include "button.h"
+#include "Button.h"
 
 Button::Button(int myPin, bool mode)    
     : mode_(mode)

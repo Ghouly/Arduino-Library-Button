@@ -10,7 +10,11 @@
 #define Button_h
 
 // include types & constants of Wiring core API
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#else
 #include "WProgram.h"
+#endif
 
 class Button {
   public:
