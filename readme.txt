@@ -1,3 +1,10 @@
+===========
+Made soome code cleaning and fixed several bugs. But I still think, that Button class is overcomplicated and should be splitted into several other classes.
+And there is a licensing issue: original author didn't specify which license this library has.
+
+KiberGus
+===========
+
 This is an example C++ library for Arduino 0018+, by Carlyn Maw
 
 Installation
