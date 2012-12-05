@@ -156,7 +156,7 @@ bool Button::onReleaseAsToggle(){
  //------------------------------------------------------- DOUBLE CLICK
  
 bool Button::onDoubleClick(){
-    return(justReleased_ && (currentReleaseTime_ - lastReleaseTime_) <= doubleClickDelay_);
+    return(justReleased_ && (currentReleaseTime_ - lastReleaseTime_) <= doubleClickDelay_ && releaseCount_ > 1);
 }
 
 void Button::setDoubleClickDelay(unsigned int newDoubleClickDelay) {
